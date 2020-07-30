@@ -1,0 +1,225 @@
+<html lang="en">
+
+<head>
+    <title>Portfolio Website</title>
+
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT LINK -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- ICONS CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- MAIN CSS -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="nav" id="nav-bar">
+        <h2>Malli Ch</h2>
+        <nav>
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about"  onclick="closeMenu()">About</a></li>
+            <li><a href="#skills"  onclick="closeMenu()">Skills</a></li>
+            <li><a href="#projects"  onclick="closeMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <li><a href="#menu" onclick="openMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+        </nav>
+    </header>
+
+    <section class="banner-area" id="home">
+        <div class="banner-img"></div>
+        <div class="banner-content">
+            <h1 class="banner-title">Hello, <br> I'm Mallikharjunarao Chilukoti</h1>
+            <p class="banner-desc">I'm a Full Software Developer</p>
+            <div class="banner-btn"><a href="#contact">Contact</a></div>
+        </div>
+    </section>
+
+    <section class="about-area section" id="about">
+        <!-- <h1 class="about-header" id="about">About</h1> -->
+        <div class="about-content">
+            <div class="about-img"></div>
+            <div class="about-desc">
+                <h2>Abo<span>u</span>t Me</h2>
+                <p>Hello! This is Chilukoti Mallikharjunarao.<br>I received Computer Science and Engineering degree in 2019 by JNTU Kakinada University.<br>I studied B-Tech in Sai Tirumala NVR Engineering College located in Jonnalagadda near to Narasaraopet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill-area section" id="skills">
+        <h1 class="about-header">Sk<span>i</span>lls</h1>
+        <div class="skill-inner-area">
+            <div class="skill-content">
+                <div class="skill-first-sub-content">
+                    <h3 class="skill-sub-heading">Programming Languages</h3>
+                    <div class="skill-box">
+                        <h2>Core Java</h2>
+                    </div>
+                    <div class="skill-box">
+                        <!-- <i class="fa fa-html5" aria-hidden="true"></i> -->
+                        <h2>HTML</h2>
+                    </div>
+                    <div class="skill-box">
+                        <!-- <i class="fa fa-css3" aria-hidden="true"></i> -->
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>SASS</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>XML</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>JavaScript Basics</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>Python Basics</h2>
+                    </div>
+                </div>
+
+                <div class="skill-second-sub-content">
+                    <h3 class="skill-sub-heading">Databases</h3>
+                    <div class="skill-box">
+                        <h2>SQLite</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>SQL Server 2008</h2>
+                    </div>
+                    <div class="skill-box">
+                        <h2>Firebase</h2>
+                    </div>
+
+                    <h3 class="skill-sub-heading">IDEs</h3>
+                    <div class="skill-box">
+                        <h2>Visual Studio Code</h2>
+                    </div>
+                    <div class="skill-box">
+                        <!-- <i class="fa fa-android" aria-hidden="true"></i> -->
+                        <h2>Android Studio</h2>
+                    </div>
+                </div>
+
+                <div class="skill-third-sub-content">
+                    <h3 class="skill-sub-heading">Operating Systems</h3>
+                    <div class="skill-box">
+                        <!-- <i class="fa fa-android" aria-hidden="true"></i> -->
+                        <h2>Windows</h2>
+                    </div>
+                    <div class="skill-box">
+                        <!-- <i class="fa fa-android" aria-hidden="true"></i> -->
+                        <h2>Linux</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-img"></div>
+        </div>
+    </section>
+
+    <section class="project section">
+        <h1 class="about-header" id="projects">Pro<span>j</span>ects</h1>
+        <div class="project-area">
+            <div class="project-box">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h1 class="project-title">Online Store</h1>
+                    <p class="project-content">It is a personal project which runs on Android Platform. <br>
+                    Currently it is in development stage. <br>
+                    It was developed for Resellers to store their orders informations in cloud using this application the user get the details of profits, total ordered products, total pending products, total sellers. <br>
+                    We can place the order to the admin and view order status</p>
+                    <a class="project-btn" href="#">Details</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h1 class="project-title">Ifft Partners</h1>
+                    <p class="project-content">It is a personal project which runs on Android Platform. <br>
+                    It is the clone of Wtsapp which runs fetch and store the data in Firebase rather than local storage(SQLite) <br>
+                    As like wtsapp we can send text messages, pictures, vedios, pdfs, docs easily <br>
+                    We can send friend request to the user and make them as friend with us.</p>
+                    <a class="project-btn" href="#">Details</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h1 class="project-title">MVM</h1>
+                    <p class="project-content">It is developed by me in an organization to make their lifes easy by this Android Application for Managing Vehicles<br>
+                    We can add number of vehicle information and get the details whenever we want and update the details when changes occur in vehicles like wheel changing, Taxes etc <br>
+                    The data is stored in SQLite database and fetch them without Internet connection.</p>
+                    <a class="project-btn" href="#">Details</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h1 class="project-title">MPH</h1>
+                    <p class="project-content">It is developed by me in an organization for a restaurent which runs on Android Platform. <br>
+                        It is a order booking interface which is used by steward and make orders in it. <br>
+                        It is connect to the server in restaurent and push order to the kichen room and then the steward get status of the order and make action based on the order status.
+                        It can also print the bill using bluetooth printer in the restaturent but development is stopped for other reasons.</p>
+                        <a class="project-btn" href="#">Details</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h1 class="project-title">CityGuide</h1>
+                    <p class="project-content">It is my Accademic project which runs on Android Platform. <br>
+                        It is an infromation system which gives the information about top 5 cities in Andhra Pradesh using Json created by my own <br>
+                        It have the feature of group chat to make conversion about the places if somebody want to visit those places.
+                        It have the user profile system with user authentication</p>
+                        <a class="project-btn" href="#">Details</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact section">
+        <h1 class="about-header" id="contact">Con<span>t</span>act</h1>
+        <div class="contact-area">
+            <div class="contact-box">
+                <i class="fa fa-map-marker"></i>
+                <h2>Location</h2>
+                <p>Chilakaluripet</p>
+            </div>
+            <div class="contact-box">
+                <i class="fa fa-phone"></i>
+                <h2>Phone</h2>
+                <p>+91 798 996 5092</p>
+            </div>
+            <div class="contact-box">
+                <i class="fa fa-envelope"></i>
+                <h2>Email</h2>
+                <p>mallich516@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>@Copyrights are reserved for this Website</h2>
+    </footer>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- SCROOL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JS FILES -->
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
